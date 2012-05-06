@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="back" type="id"/>
+    <item name="username" type="id"/>
+    <item name="password" type="id"/>
+    <item name="btn_login" type="id"/>
+    <item name="map_View" type="id"/>
+    <item name="near_user" type="id"/>
+    <item name="list_view" type="id"/>
+    <item name="the_user" type="id"/>
+    <item name="the_gender" type="id"/>
+    <item name="the_age" type="id"/>
+    <item name="the_address" type="id"/>
+    <item name="the_tel" type="id"/>
+    <item name="chatlist" type="id"/>
+    <item name="txvName" type="id"/>
+    <item name="txvInfo" type="id"/>
+    <item name="btn_send" type="id"/>
+    <item name="send_text" type="id"/>
+	<item name="chat_user" type="id"/>
+</resources>

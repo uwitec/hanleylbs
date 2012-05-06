@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/chatting_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:background="@drawable/bg_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" >
+
+            <ImageButton
+                android:id="@id/back"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_title_bar_bg"
+                android:scaleType="center"
+                android:src="@drawable/title_bar_btn_normal" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ff006d31" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ff00bf56" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="4.0"
+            android:gravity="center"
+            android:text="@string/near_user"
+            android:textColor="@android:color/white"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@id/list_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#000000"
+        android:fastScrollEnabled="true"
+        android:focusable="true"
+        android:paddingTop="15dp" />
+
+</LinearLayout>

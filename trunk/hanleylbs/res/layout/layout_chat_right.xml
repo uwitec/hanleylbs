@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:paddingTop="5px"
+ android:gravity="right"
+ android:paddingRight="10px"
+  >
+  <TextView android:id="@+id/txvInfo" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:paddingTop="7px"
+       android:paddingBottom="7px"
+       android:paddingLeft="7px"
+       android:paddingRight="10px"
+       android:textColor="@android:color/black" 
+       android:textSize="20dip"     
+       android:background="@drawable/chatbgb"></TextView>
+
+     <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:orientation="vertical"
+         >
+      <ImageView
+      android:layout_width="42px"
+      android:layout_height="42px"
+      android:layout_gravity="bottom"
+      android:id="@+id/imgPortraitB"
+      android:background="@drawable/portraitb"
+  />
+        <TextView android:id="@+id/txvName" 
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:paddingBottom="2px"
+       android:textColor="@android:color/black" 
+       android:gravity="center"
+       android:textSize="10dip" >
+       </TextView>
+       </LinearLayout>
+ 
+
+
+</LinearLayout>

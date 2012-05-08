@@ -4,7 +4,7 @@ public interface LBSConstants {
 	
 //	public static final String URL = "http://192.168.1.121:8080/GreenHouse/springmvc/mobile.do";
 	
-	public static final String URL = "http://192.168.1.106:8080/hanleylbs_server/";
+	public static final String URL = "http://192.168.1.121:8080/hanleylbs_server/";
 //	public static final String URL = "http://192.168.0.100:8080/hanleylbs_server/";
 	public static final String OPER_ID = "o";
 	public static final String ACTION_TYPE = "t";

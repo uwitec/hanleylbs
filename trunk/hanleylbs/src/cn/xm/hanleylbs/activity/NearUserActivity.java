@@ -174,26 +174,7 @@ public class NearUserActivity extends Activity {
 			
 			data.add(map);
 			
-			/*
-			User user = new User();
-			user.setUserId(resJsonObj.getInt("userid"));
-			user.setAge(resJsonObj.getInt("age"));
-			user.setGender(resJsonObj.getInt("gender"));
-			user.setOnline(resJsonObj.getInt("online"));
-			user.setTel(resJsonObj.getString("tel"));
-			user.setName(resJsonObj.getString("name"));
-			user.setAddress(resJsonObj.getString("address"));
-			user.setLongitude(resJsonObj.getString("longitude"));
-			user.setLatitude(resJsonObj.getString("latitude"));
-			user.setMemo(resJsonObj.getString("memo"));
-			
-			Log.e(TAG, user.toString());
-			*/
 		}
-		
-		
-		
-		
 		
 }
 	

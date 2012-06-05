@@ -149,11 +149,11 @@ public class NearUserActivity extends Activity {
 			String everyUser = jsonArray.getString(i);
 			JSONObject resJsonObj = new JSONObject(everyUser);
 			
-			if(resJsonObj.getInt("userid")==OperationConstants.user.getUserId()){
+			if(resJsonObj.getInt("userId")==OperationConstants.user.getUserId()){
 				continue;
 			}
 			
-			map.put("userid", resJsonObj.getString("userid"));
+			map.put("userid", resJsonObj.getString("userId"));
 			map.put("the_age", "年龄:"+resJsonObj.getString("age"));
 			
 			if(resJsonObj.getInt("gender") == 0){
@@ -225,11 +225,6 @@ public class NearUserActivity extends Activity {
 				}
 			}
 			
-			try {
-				responseResult = new String(responseResult.getBytes("ISO8859-1"),"UTF-8");
-			} catch (UnsupportedEncodingException e) {
-				Log.e(TAG, e.toString());
-			}
 			return responseResult;
 		}
 		

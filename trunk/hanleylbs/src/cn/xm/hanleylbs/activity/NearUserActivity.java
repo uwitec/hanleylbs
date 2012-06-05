@@ -1,7 +1,6 @@
 package cn.xm.hanleylbs.activity;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.net.SocketTimeoutException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,23 +14,19 @@ import org.json.JSONObject;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-import android.widget.TextView;
 import cn.xm.hanleylbs.R;
 import cn.xm.hanleylbs.constants.OperationConstants;
 import cn.xm.hanleylbs.domain.TaskInfo;
@@ -120,7 +115,6 @@ public class NearUserActivity extends Activity {
 			String userId = m.get("userid");
 			String theUser = m.get("the_user");
 			
-			//FIXME 
 			Intent intent = new Intent(NearUserActivity.this,ChatActivity.class);
 			Bundle b = new Bundle();
 			b.putString("userId", userId);
